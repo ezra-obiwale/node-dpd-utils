@@ -1,6 +1,6 @@
 
-# Some nodejs/deployd utility functions that I keep reusing over time
-Some node js functions that I might keep reusing over time
+# node-dpd-utils
+Some nodejs/deployd utility functions that I keep reusing over time
 
 ## Methods
 
