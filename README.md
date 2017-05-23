@@ -1,20 +1,24 @@
 
-# node-utils
+# Some nodejs/deployd utility functions that I keep reusing over time
 Some node js functions that I might keep reusing over time
 
 ## Methods
 
-### parseTemplate <small>(`string` content, `object` variables) : `string`</small>
+### parseTemplate 
+(`string` content, `object` variables) : `string`
 
 #### Example
+
 ````js
 var str = parseTemplate("My name is {{name}}", {name:"Ezra Obiwale"});
 console.log(str); // "My name is Ezra Obiwale"
 ````
 
-### mongoCollection <small>(`object` collection) : `Promise`</small>
+### mongoCollection 
+(`object` collection) : `Promise`
 
 #### Example
+
 ````js
 mongoCollection(dpd.users)
     .then(collection => {
