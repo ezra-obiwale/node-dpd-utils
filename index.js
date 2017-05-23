@@ -18,5 +18,16 @@ module.exports = {
      */
     mongoCollection: function (collection) {
         return collection.getResource().store.getCollection();
+    },
+    /**
+     * Redirects to the given url
+     * @param {object} ctx The ctx object
+     * @param {string} url The url to redirect to
+     * @returns {void}
+     */
+    redirect: function (ctx, url) {
+        ctx.res.statusCode = 302;
+        ctx.res.setHeader("Location", url);
+        ctx.res.end();
     }
 };

@@ -26,3 +26,12 @@ mongoCollection(dpd.users)
     })
     .catch(console.error);
 ````
+
+### redirect
+(`object` ctx, `string` url)
+
+#### Example
+
+````js
+redirect(ctx, 'http://localhost:2403/logged-in-user/');
+````
