@@ -1,6 +1,6 @@
 
 # node-dpd-utils
-Some nodejs/deployd utility functions that I keep reusing over time
+A nodejs module containing some utility functions that I keep reusing over time especially with Deployd
 
 ## Methods
 
