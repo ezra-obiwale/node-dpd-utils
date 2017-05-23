@@ -1,5 +1,5 @@
 {
-  "name": "node-dpd-utils",
+  "name": "node-utils",
   "version": "1.0.0",
   "description": "Some nodejs/deployd utility functions that I keep reusing over time",
   "main": "index.js",
