@@ -1,5 +1,7 @@
 
 # node-dpd-utils
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ezra-obiwale/node-dpd-utils.svg)](https://greenkeeper.io/)
 A nodejs module containing some utility functions that I keep reusing over time especially with Deployd
 
 ## Methods
